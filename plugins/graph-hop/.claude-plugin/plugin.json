@@ -1,9 +1,0 @@
-{
-  "name": "graph-hop",
-  "version": "0.1.1",
-  "description": "Hop across your ChatGPT threads from Claude Code over Chrome CDP: consult one thread or fan a question across many, then synthesize the pattern between them. Includes a persistent cross-thread ledger.",
-  "author": { "name": "Homen Shum" },
-  "repository": "https://github.com/HomenShum/claude-marketplace",
-  "license": "MIT",
-  "keywords": ["chatgpt", "chrome-cdp", "council", "second-opinion", "cross-thread", "synthesis"]
-}

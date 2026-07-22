@@ -10,7 +10,7 @@
   "plugins": [
     {
       "name": "graph-hop",
-      "source": "./plugins/graph-hop",
+      "source": { "source": "url", "url": "https://github.com/HomenShum/graph-hop.git" },
       "description": "Drive your ChatGPT threads from Claude Code over Chrome CDP. Route reasoning effort, consult one thread or fan a question across many, and synthesize agreement, contradiction, and novel findings into a verdict. Includes a persistent cross-thread ledger.",
       "version": "0.1.1",
       "author": { "name": "Homen Shum" }
