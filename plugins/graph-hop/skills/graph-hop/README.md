@@ -31,8 +31,16 @@ and you get three genuinely different framings. **The disagreements are where th
 - **Pairing mode:** crosses an in-repo agent result (a Workflow, a review pass) against a thread
   as *opposing priors* — because agents see the code but inherit your framing, while the thread
   sees the reasoning but not the code. Neither can audit itself.
+- **Ledger:** a persistent cross-thread memory under all the modes, so the skill stops re-reading
+  the same threads cold. A cache with a staleness contract — the threads stay the source of truth.
 
 ## Install
+
+> Preferred install is now the marketplace — see
+> [HomenShum/claude-marketplace](https://github.com/HomenShum/claude-marketplace) for `/plugin`
+> install and managed updates. The bare-clone below still works for a single machine.
+
+## Install (bare clone)
 
 ```bash
 git clone https://github.com/HomenShum/graph-hop.git ~/.claude/skills/graph-hop
