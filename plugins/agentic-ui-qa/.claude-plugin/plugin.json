@@ -1,0 +1,9 @@
+{
+  "name": "agentic-ui-qa",
+  "version": "0.1.0",
+  "description": "Universal QA and dogfooding protocol for agentic application UIs: persona-driven end-to-end drive, artifact-verified claims, Agentic UI Bar scoring, and a bounded fix-revamp loop.",
+  "author": { "name": "Homen Shum" },
+  "repository": "https://github.com/HomenShum/claude-marketplace",
+  "license": "MIT",
+  "keywords": ["qa", "dogfooding", "agentic-ui", "regression-test", "playwright", "personas"]
+}

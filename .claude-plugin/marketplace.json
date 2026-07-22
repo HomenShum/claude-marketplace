@@ -1,0 +1,40 @@
+{
+  "name": "homenshum",
+  "owner": {
+    "name": "Homen Shum"
+  },
+  "metadata": {
+    "description": "Homen Shum's Claude Code skills: ChatGPT cross-thread consultation, agentic UI QA, diagramming, and readable submissions.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "graph-hop",
+      "source": "./plugins/graph-hop",
+      "description": "Drive your ChatGPT threads from Claude Code over Chrome CDP. Route reasoning effort, consult one thread or fan a question across many, and synthesize agreement, contradiction, and novel findings into a verdict.",
+      "version": "0.1.0",
+      "author": { "name": "Homen Shum" }
+    },
+    {
+      "name": "agentic-ui-qa",
+      "source": "./plugins/agentic-ui-qa",
+      "description": "Universal QA and dogfooding protocol for agentic application UIs: drives the UI end to end as personas, verifies every claim with artifacts, scores against the Agentic UI Bar, and runs a bounded fix-revamp loop.",
+      "version": "0.1.0",
+      "author": { "name": "Homen Shum" }
+    },
+    {
+      "name": "drawio-skill",
+      "source": "./plugins/drawio-skill",
+      "description": "Generate diagrams, flowcharts, architecture and UML/ER figures, and mind maps as .drawio XML, exported locally via the native draw.io CLI to PNG/SVG/PDF.",
+      "version": "0.1.0",
+      "author": { "name": "Homen Shum" }
+    },
+    {
+      "name": "easier-to-read-submissions",
+      "source": "./plugins/easier-to-read-submissions",
+      "description": "Make every commit, branch, and PR easier for the next person to read: per-surface changelog entries and, when UI changed, a verified demo recording.",
+      "version": "0.1.0",
+      "author": { "name": "Homen Shum" }
+    }
+  ]
+}

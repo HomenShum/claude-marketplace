@@ -1,0 +1,9 @@
+{
+  "name": "drawio-skill",
+  "version": "0.1.0",
+  "description": "Generate diagrams, flowcharts, architecture/UML/ER figures, and mind maps as .drawio XML, exported locally via the native draw.io CLI to PNG/SVG/PDF.",
+  "author": { "name": "Homen Shum" },
+  "repository": "https://github.com/HomenShum/claude-marketplace",
+  "license": "MIT",
+  "keywords": ["diagram", "flowchart", "drawio", "uml", "architecture", "visualization"]
+}

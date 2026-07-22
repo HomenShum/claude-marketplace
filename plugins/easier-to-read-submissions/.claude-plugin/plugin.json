@@ -1,0 +1,9 @@
+{
+  "name": "easier-to-read-submissions",
+  "version": "0.1.0",
+  "description": "Make every commit, branch, and PR easier for the next reader: per-surface changelog entries and, when UI changed, a verified demo recording.",
+  "author": { "name": "Homen Shum" },
+  "repository": "https://github.com/HomenShum/claude-marketplace",
+  "license": "MIT",
+  "keywords": ["changelog", "pull-request", "code-review", "handoff", "readability"]
+}
