@@ -12,6 +12,7 @@ plugin's version bumps.
 ```
 /plugin marketplace add HomenShum/claude-marketplace
 /plugin install graph-hop@homenshum
+/plugin install proof-carrying-release@homenshum
 ```
 
 Then browse the rest:
@@ -34,6 +35,7 @@ When a plugin's version bumps, refresh the marketplace and update:
 | Plugin | What it does |
 |---|---|
 | **graph-hop** | Drive your ChatGPT threads from Claude Code over Chrome CDP — consult one thread or fan a question across many, then synthesize agreement / contradiction / novel into a verdict. |
+| **proof-carrying-release** | Carry one exact revision through Graphite, candidate/canary gates, canonical live proof, rollback, receipt closure, and recoverable only-main cleanup. |
 | **agentic-ui-qa** | Universal QA + dogfooding protocol for agentic UIs: persona-driven end-to-end drive, artifact-verified claims, Agentic UI Bar scoring, bounded fix-revamp loop. |
 | **drawio-skill** | Diagrams, flowcharts, architecture/UML/ER figures, and mind maps as `.drawio` XML, exported via the native draw.io CLI. |
 | **easier-to-read-submissions** | Make every commit, branch, and PR easier to read: per-surface changelog entries and a verified demo recording when UI changed. |
