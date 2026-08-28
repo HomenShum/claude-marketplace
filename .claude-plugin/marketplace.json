@@ -4,8 +4,8 @@
     "name": "Homen Shum"
   },
   "metadata": {
-    "description": "Homen Shum's Claude Code skills: ChatGPT cross-thread consultation, agentic UI QA, diagramming, and readable submissions.",
-    "version": "0.1.0"
+    "description": "Homen Shum's Claude Code skills: proof-carrying releases, ChatGPT cross-thread consultation, agentic UI QA, diagramming, and readable submissions.",
+    "version": "0.2.0"
   },
   "plugins": [
     {
@@ -13,6 +13,16 @@
       "source": { "source": "url", "url": "https://github.com/HomenShum/graph-hop.git" },
       "description": "Drive your ChatGPT threads from Claude Code over Chrome CDP. Route reasoning effort, consult one thread or fan a question across many, and synthesize agreement, contradiction, and novel findings into a verdict. Includes a persistent cross-thread ledger.",
       "version": "0.1.1",
+      "author": { "name": "Homen Shum" }
+    },
+    {
+      "name": "proof-carrying-release",
+      "source": {
+        "source": "github",
+        "repo": "HomenShum/proof-carrying-release",
+        "sha": "af39fa70ab61cd3e8b5071bcc2ccb7b47549ee74"
+      },
+      "description": "Carry an exact software revision through Graphite, candidate or canary gates, canonical live proof, rollback, evidence closure, and recoverable only-main cleanup.",
       "author": { "name": "Homen Shum" }
     },
     {
